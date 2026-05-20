@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "_test-stub",
+  "name": "test-stub",
   "type": "registry:block",
   "title": "Stax Test Stub",
   "description": "Phase-1 test stub used to validate the Stax install CLI. Not for production.",
@@ -8,7 +8,7 @@
     {
       "path": "routes/page.tsx",
       "type": "registry:page",
-      "target": "app/_test-stub/page.tsx"
+      "target": "app/test-stub/page.tsx"
     }
   ],
   "meta": {
@@ -17,7 +17,7 @@
       "tier": "free",
       "requires": [],
       "navItems": [
-        { "label": "Test Stub", "href": "/_test-stub" }
+        { "label": "Test Stub", "href": "/test-stub" }
       ],
       "settingsPath": null,
       "envVars": [],
